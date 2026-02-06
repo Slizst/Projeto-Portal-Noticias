@@ -10,13 +10,13 @@
     --card-gradient: #020617;
 
     --font-family: "Archivo", sans-serif;
-    --text-h1: bolder 24px/135% var(--font-family);
-    --text-h2: bolder 16px/140% var(--font-family);
-    --text-h3: bolder 14px/140% var(--font-family);
-    --text-span: bold 14px/145% var(--font-family);
-    --text: normal 16px/140% var(--font-family);
-    --text-sm: normal 14px/160% var(--font-family);
-    --text-p: normal 14px/160% var(--font-family);
+    --text-h1: 800 24px/135% var(--font-family);
+    --text-h2: 800 16px/140% var(--font-family);
+    --text-h3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/160% var(--font-family);
+    --text-p: 400 14px/160% var(--font-family);
 }
 
 *{
