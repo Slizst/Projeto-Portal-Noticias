@@ -17,6 +17,11 @@
         content: "";
         position: absolute;
         inset: 0;
-        background-color: white;
+        top: 50%;
+        background-image: linear-gradient(
+            180deg,
+            transparent 0%,
+            var(--card-gradient) 100%
+            );
     }
 }
