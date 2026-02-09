@@ -1,5 +1,28 @@
 @import url(global.css);
 
+section header{
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 12px 24px;
+    font: var(--text-span);
+
+    a{
+        justify-self: end;
+        align-items: center;
+        gap: 8px;
+
+        span{
+            background-image: url(../Assets/icons/WhiteArrowRight.svg);
+            width: 16px;
+            height: 16px;
+            transition: 0.5s;
+        }
+
+        &:hover span{
+            background-image: url(../Assets/icons/BlueArrowRight.svg);
+        }
+    }
+}
+
 #featured{
     img{
         height: 100%;
@@ -37,5 +60,33 @@
         h2{
             margin-top: 8px;
         }
+    }
+}
+
+#weekly{
+    padding-block: 80px;
+
+    &>div{
+        grid-template-columns: repeat(4,292px);
+        padding-bottom: 24px;
+    }
+
+    img{
+        height: 160px;
+    }
+
+    figure{
+        position: relative;
+
+        .content-tag{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+    }
+
+    p{
+        margin-top: 8px;
+        font-weight: 900;
     }
 }
